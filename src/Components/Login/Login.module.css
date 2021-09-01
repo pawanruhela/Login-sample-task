@@ -1,0 +1,37 @@
+.loginWrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #2A6078;
+}
+.loginFormWrapper {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 400px;
+}
+.loginFormWrapper form .formGroup {
+    position: relative;
+}
+.loginFormWrapper form .formGroup input {
+    background: #ff0000;
+    opacity: 0.44;
+    border: none;
+}
+.loginVectorWrapper {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: calc(100% -  400px);
+}
+.loginVectorWrapper img {
+    max-width: 100%;
+}

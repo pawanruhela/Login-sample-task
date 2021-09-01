@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: linear-gradient(#5c9bc9 0%, rgba(85, 143, 185, 0.92) 17.73%, rgba(61, 103, 133, 0.64) 68.97%, rgba(46, 78, 101, 0.47) 100%);
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header ul li {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+.header ul li.languageTag {
+    border-radius: 7px;
+    backdrop-filter: blur(30px);
+    --webkit-backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.15);
+    font-weight: normal;
+    font-size: 19px;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.header ul li.profileDropdown {
+    border-left: 1px solid #fff;
+}
+.header ul li.profileDropdown button {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+.header ul li.profileDropdown button span.icon {
+    width: 31px;
+    height: 31px;
+    background: #e8e8e8;
+    border: 1px solid #fff;
+    opacity: 0.77;
+    border-radius: 100%;
+}
