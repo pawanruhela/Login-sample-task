@@ -8,20 +8,164 @@
 }
 .loginFormWrapper {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 50px;
     display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 400px;
+    max-width: calc(400px - 50px);
 }
-.loginFormWrapper form .formGroup {
+.loginFormWrapper h1 {
+    margin: 0;
+    padding: 0 0 30px 0;
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+.loginFormWrapper form {
+    width: 100%;
+}
+.formGroup {
     position: relative;
 }
-.loginFormWrapper form .formGroup input {
-    background: #ff0000;
-    opacity: 0.44;
+.formGroup label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+}
+.formGroup input {
+    background: rgba(253,253, 253, 0.5);
     border: none;
+    border-radius: 3px;
+    padding: 15px 15px 15px 40px;
+    width: calc(100% - 55px);
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+.formGroup input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.formGroup input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.formGroup input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.formGroup input:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.formGroup input:focus {
+    outline: none;
+    border: none;
+}
+.loginLink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+}
+.loginLink a {
+    display: inline-flex;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.loginFormWrapper button {
+    border: none;
+}
+.loginFormWrapper button {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 12px;
+    background: linear-gradient(#23a7e2 0%, #1b81ae 46.31%, #125471 100%);
+    cursor: pointer;
+}
+.loginFormWrapper button[disabled] {
+    background: #ADADAD;
+    cursor: not-allowed;
+}
+.socialLogin {
+    padding: 0;
+    margin: 20px auto 0 auto;
+    width: 300px;
+}
+.socialLogin h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.socialLogin h2 span {
+    background: #2A6078;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    position: inherit;
+}
+.socialLogin h2:before {
+    height: 1px;
+    background: #fff;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    position: absolute;
+    content: "";
+}
+.socialLogin ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.socialLogin ul li {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+}
+.socialLogin ul li a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+.socialLogin ul li a:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 .loginVectorWrapper {
     margin: 0;
@@ -29,9 +173,10 @@
     display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: flex-end;
     width: 100%;
     max-width: calc(100% -  400px);
 }
 .loginVectorWrapper img {
-    max-width: 100%;
+    max-width: 80%;
 }

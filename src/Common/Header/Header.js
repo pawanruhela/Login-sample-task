@@ -22,28 +22,30 @@ export const Header = (...props) => {
     return (
         <React.Fragment>
             <header className={headerStyle.header}>
-                <div className={headerStyle.logo}>
-                    <img src={logo} alt="" />
-                </div>
-                <div className={headerStyle.headerRight}>
-                    <ul>
-                        <li className={headerStyle.languageTag}>en</li>
-                        <li>Join Now! </li>
-                        <li className={headerStyle.profileDropdown}>
-                            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}><span className={headerStyle.icon}><PersonIcon /></span> Login</Button>
-                            <Menu
-                                id="simple-menu"
-                                anchorEl={anchorEl}
-                                keepMounted
-                                open={Boolean(anchorEl)}
-                                onClose={handleClose}
-                            >
-                                <MenuItem onClick={handleClose}>Profile</MenuItem>
-                                <MenuItem onClick={handleClose}>My account</MenuItem>
-                                <MenuItem onClick={handleClose}>Logout</MenuItem>
-                            </Menu>
-                        </li>
-                    </ul>
+                <div className={headerStyle.headerInner}>
+                    <div className={headerStyle.logo}>
+                        <img src={logo} alt="" />
+                    </div>
+                    <div className={headerStyle.headerRight}>
+                        <ul>
+                            <li className={headerStyle.languageTag}>en</li>
+                            <li>Join Now! </li>
+                            <li className={headerStyle.profileDropdown}>
+                                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}><span className={headerStyle.icon}><PersonIcon /></span> Login</Button>
+                                <Menu
+                                    id="simple-menu"
+                                    anchorEl={anchorEl}
+                                    keepMounted
+                                    open={Boolean(anchorEl)}
+                                    onClose={handleClose}
+                                >
+                                    <MenuItem onClick={handleClose}>Profile</MenuItem>
+                                    <MenuItem onClick={handleClose}>My account</MenuItem>
+                                    <MenuItem onClick={handleClose}>Logout</MenuItem>
+                                </Menu>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </header>
         </React.Fragment>
