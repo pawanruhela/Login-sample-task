@@ -63,6 +63,7 @@
     font-size: 1.1rem;
     line-height: 35px;
     text-align: center;
+    text-transform: none;
     color: #fff;
     margin-left: 15px;
 }
