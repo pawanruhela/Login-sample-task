@@ -21,7 +21,6 @@ import thumbnail6 from '../../assets/thumbnail/puzzle-img6.jpg';
 import thumbnail7 from '../../assets/thumbnail/puzzle-img7.jpg';
 import thumbnail8 from '../../assets/thumbnail/puzzle-img8.jpg';
 
-
 export const Login = (...props) => {
     return (
         <React.Fragment>
@@ -32,7 +31,7 @@ export const Login = (...props) => {
                     <form autoComplete="off">
                         <div className={loginStyle.formGroup}>
                             <label><PersonIcon /></label>
-                            <input type="email" placeholder="Username" />
+                            <input type="text" placeholder="Username" />
                         </div>
                         <div className={loginStyle.formGroup}>
                             <label><LockIcon /></label>
@@ -41,7 +40,7 @@ export const Login = (...props) => {
                         <div className={loginStyle.loginLink}>
                             <a href="/forget-password">Forget Your Password ?</a>
                         </div>
-                        <button>Login</button>
+                        <button type="submit">Login</button>
                         <button disabled>Sign Up</button>
                     </form>
                     <div className={loginStyle.socialLogin}>
@@ -60,7 +59,6 @@ export const Login = (...props) => {
                                 <span className={loginStyle.green}><RssFeedIcon/> Live</span>
                                 <img src={thumbnail1} alt="Thumbnail" title="Thumbnail" />
                             </a>
-
                             <a href="#">
                                 <span className={loginStyle.orange}><EventIcon /> Event</span>
                                 <img src={thumbnail2} alt="Thumbnail" title="Thumbnail" />
@@ -83,7 +81,6 @@ export const Login = (...props) => {
                                 <span className={loginStyle.blue}><VideocamIcon/> Recorded Show</span>
                                 <img src={thumbnail6} alt="Thumbnail" title="Thumbnail" />
                             </a>
-
                         </div>
                         <div className={loginStyle.others}>
                             <a href="#">
@@ -94,10 +91,6 @@ export const Login = (...props) => {
                         </div>
                     </div>
                     <img src={loginVector} alt="" />
-                    {/* <span className={loginStyle.img1}></span>
-                        <span className={loginStyle.img2}></span>
-                        <span className={loginStyle.img3}></span>
-                        <span className={loginStyle.img4}></span> */}
                 </div>
             </div>
             <Footer />

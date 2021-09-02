@@ -4,17 +4,14 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import PersonIcon from '@material-ui/icons/Person';
-
 import logo from '../../assets/images/logo.svg';
 
 export const Header = (...props) => {
 
     const [anchorEl, setAnchorEl] = React.useState(null);
-
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
-
     const handleClose = () => {
         setAnchorEl(null);
     };

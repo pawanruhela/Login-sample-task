@@ -17,9 +17,9 @@
 }
 .loginFormWrapper h1 {
     margin: 0;
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #fff;
     width: 100%;
@@ -75,7 +75,7 @@
 .loginLink a {
     display: inline-flex;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1rem;
     color: #fff;
     text-decoration: none;
 }
@@ -94,6 +94,13 @@
     padding: 12px;
     background: linear-gradient(#23a7e2 0%, #1b81ae 46.31%, #125471 100%);
     cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.loginFormWrapper button:hover {
+    background: linear-gradient(#125471 0%, #1b81ae 46.31%, #23a7e2 100%);
 }
 .loginFormWrapper button[disabled] {
     background: #ADADAD;
@@ -163,6 +170,10 @@
     border-radius: 100%;
     width: 45px;
     height: 45px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 .socialLogin ul li a:hover {
     background: rgba(255, 255, 255, 0.5);
