@@ -213,6 +213,45 @@
     left: 32px;
 }
 
+.thumbnailWrapper a {
+    position: relative;
+}
+
+.thumbnailWrapper a span {
+    position: absolute;
+}
+
+.thumbnailWrapper a span {
+    position: absolute;
+    padding: 3px;
+    font-size: 11px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.thumbnailWrapper svg {
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.thumbnailWrapper .green {
+    background: #01DC12;
+}
+
+.thumbnailWrapper .orange {
+    background: #F87F06;
+}
+.thumbnailWrapper .blue {
+    background: #0000FD;
+}
+.thumbnailWrapper .pink {
+    background: #F450F4;
+}
+
 .thumbnailWrapper img {
     border: 1px solid #f2faff;
     box-shadow: 0px 3px 6px #30526a;
@@ -224,7 +263,7 @@
 }
 
 .thumbnailWrapper img:hover {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .thumbnailWrapper .secondRow {
@@ -237,6 +276,43 @@
     margin-left: 286px;
 
 }
+
 .thumbnailWrapper .others img {
     margin-bottom: 3px;
+}
+
+.img1 {
+    width: 47px;
+    height: 45px;
+    background: url('../../assets/images/sprite.png') -10px -118px;
+    position: absolute;
+    right: 36%;
+    top: 27%;
+}
+
+.img2 {
+    width: 57px;
+    height: 51px;
+    background: url('../../assets/images/sprite.png') -163px -10px;
+    position: absolute;
+    top: 26%;
+    right: 18%;
+}
+
+.img3 {
+    width: 37px;
+    height: 42px;
+    background: url('../../assets/images/sprite.png') -77px -118px;
+    position: absolute;
+    top: 48%;
+    right: 28%;
+}
+
+.img4 {
+    width: 133px;
+    height: 88px;
+    background: url('../../assets/images/sprite.png') -10px -10px;
+    position: absolute;
+    top: 5%;
+    right: 24%;
 }

@@ -4,6 +4,10 @@ import Footer from '../../Common/Footer/Footer';
 import Header from '../../Common/Header/Header';
 import PersonIcon from '@material-ui/icons/Person';
 import LockIcon from '@material-ui/icons/Lock';
+import RssFeedIcon from '@material-ui/icons/RssFeed';
+import EventIcon from '@material-ui/icons/Event';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import MusicVideoIcon from '@material-ui/icons/MusicVideo';
 
 import loginVector from '../../assets/images/login-vector.jpg';
 import facebookIcon from '../../assets/images/facebook-icon.svg';
@@ -53,21 +57,48 @@ export const Login = (...props) => {
                 <div className={loginStyle.loginVectorWrapper}>
                     <div className={loginStyle.thumbnailWrapper}>
                         <div>
-                            <img src={thumbnail1} alt="Thumbnail" title="Thumbnail" />
-                            <img src={thumbnail2} alt="Thumbnail" title="Thumbnail" />
-                            <img src={thumbnail3} alt="Thumbnail" title="Thumbnail" />
+                            <a href="#">
+                                <span className={loginStyle.green}><RssFeedIcon/> Live</span>
+                                <img src={thumbnail1} alt="Thumbnail" title="Thumbnail" />
+                            </a>
+
+                            <a href="#">
+                                <span className={loginStyle.orange}><EventIcon/> Event</span>
+                                <img src={thumbnail2} alt="Thumbnail" title="Thumbnail" />
+                            </a>
+                            <a href="#">
+                                <span className={loginStyle.blue}><MusicVideoIcon/> Recorded Show</span>
+                                <img src={thumbnail3} alt="Thumbnail" title="Thumbnail" />
+                            </a>
                         </div>
                         <div className={loginStyle.secondRow}>
-                            <img src={thumbnail4} alt="Thumbnail" title="Thumbnail" />
-                            <img src={thumbnail5} alt="Thumbnail" title="Thumbnail" />
-                            <img src={thumbnail6} alt="Thumbnail" title="Thumbnail" />
+                            <a href="#">
+                                <span className={loginStyle.pink}><LaptopMacIcon/>  Classes</span>
+                                <img src={thumbnail4} alt="Thumbnail" title="Thumbnail" />
+                            </a>
+                            <a href="#">
+                                <span className={loginStyle.orange}><EventIcon/>  Event</span>
+                                <img src={thumbnail5} alt="Thumbnail" title="Thumbnail" />
+                            </a>
+                            <a href="#">
+                                <span className={loginStyle.blue}><MusicVideoIcon/>  Recorded Show</span>
+                                <img src={thumbnail6} alt="Thumbnail" title="Thumbnail" />
+                            </a>
+
                         </div>
                         <div className={loginStyle.others}>
-                            <img src={thumbnail7} alt="Thumbnail" title="Thumbnail" />
+                            <a href="#">
+                                <span className={loginStyle.pink}><LaptopMacIcon/>  Classes</span>
+                                <img src={thumbnail7} alt="Thumbnail" title="Thumbnail" />
+                            </a>
                             <img src={thumbnail8} alt="Thumbnail" title="Thumbnail" />
                         </div>
                     </div>
                     <img src={loginVector} alt="" />
+                    {/* <span className={loginStyle.img1}></span>
+                        <span className={loginStyle.img2}></span>
+                        <span className={loginStyle.img3}></span>
+                        <span className={loginStyle.img4}></span> */}
                 </div>
             </div>
             <Footer />
