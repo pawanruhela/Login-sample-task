@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     background: #2A6078;
 }
-
 .loginFormWrapper {
     margin: 0;
     padding: 0 0 0 50px;
@@ -16,7 +15,6 @@
     width: 100%;
     max-width: calc(400px - 50px);
 }
-
 .loginFormWrapper h1 {
     margin: 0;
     padding: 0 0 30px 0;
@@ -26,22 +24,18 @@
     color: #fff;
     width: 100%;
 }
-
 .loginFormWrapper form {
     width: 100%;
 }
-
 .formGroup {
     position: relative;
 }
-
 .formGroup label {
     position: absolute;
     top: 10px;
     left: 10px;
     color: #fff;
 }
-
 .formGroup input {
     background: rgba(253, 253, 253, 0.5);
     border: none;
@@ -54,28 +48,22 @@
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
 }
-
 .formGroup input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
-
 .formGroup input::-moz-placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
-
 .formGroup input:-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
-
 .formGroup input:-moz-placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
-
 .formGroup input:focus {
     outline: none;
     border: none;
 }
-
 .loginLink {
     width: 100%;
     display: flex;
@@ -84,7 +72,6 @@
     justify-content: center;
     padding: 10px 0 20px 0;
 }
-
 .loginLink a {
     display: inline-flex;
     font-weight: normal;
@@ -92,11 +79,9 @@
     color: #fff;
     text-decoration: none;
 }
-
 .loginFormWrapper button {
     border: none;
 }
-
 .loginFormWrapper button {
     width: 100%;
     border-radius: 5px;
@@ -110,18 +95,15 @@
     background: linear-gradient(#23a7e2 0%, #1b81ae 46.31%, #125471 100%);
     cursor: pointer;
 }
-
 .loginFormWrapper button[disabled] {
     background: #ADADAD;
     cursor: not-allowed;
 }
-
 .socialLogin {
     padding: 0;
     margin: 20px auto 0 auto;
     width: 300px;
 }
-
 .socialLogin h2 {
     margin: 0;
     padding: 0;
@@ -135,7 +117,6 @@
     position: relative;
     width: 100%;
 }
-
 .socialLogin h2 span {
     background: #2A6078;
     display: inline-flex;
@@ -144,7 +125,6 @@
     padding: 0 15px;
     position: inherit;
 }
-
 .socialLogin h2:before {
     height: 1px;
     background: #fff;
@@ -155,7 +135,6 @@
     position: absolute;
     content: "";
 }
-
 .socialLogin ul {
     margin: 20px 0 0 0;
     padding: 0;
@@ -166,7 +145,6 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .socialLogin ul li {
     display: inline-flex;
     align-items: center;
@@ -176,7 +154,6 @@
     height: 45px;
     margin: 0 15px;
 }
-
 .socialLogin ul li a {
     display: flex;
     align-items: center;
@@ -187,11 +164,9 @@
     width: 45px;
     height: 45px;
 }
-
 .socialLogin ul li a:hover {
     background: rgba(255, 255, 255, 0.5);
 }
-
 .loginVectorWrapper {
     margin: 0;
     padding: 0;
@@ -203,28 +178,23 @@
     max-width: calc(100% - 400px);
     position: relative;
 }
-
 .loginVectorWrapper img {
     max-width: 80%;
 }
-
 .thumbnailWrapper {
     position: absolute;
     left: 32px;
 }
-
 .thumbnailWrapper a {
     position: relative;
 }
-
 .thumbnailWrapper a span {
     position: absolute;
 }
-
 .thumbnailWrapper a span {
     position: absolute;
-    padding: 3px;
-    font-size: 11px;
+    padding: 5px 8px;
+    font-size: 10px;
     border-radius: 4px;
     color: #fff;
     margin: 5px;
@@ -235,13 +205,11 @@
 }
 .thumbnailWrapper svg {
     font-size: 15px;
-    margin-right: 2px;
+    margin-right: 5px;
 }
-
 .thumbnailWrapper .green {
     background: #01DC12;
 }
-
 .thumbnailWrapper .orange {
     background: #F87F06;
 }
@@ -251,7 +219,6 @@
 .thumbnailWrapper .pink {
     background: #F450F4;
 }
-
 .thumbnailWrapper img {
     border: 1px solid #f2faff;
     box-shadow: 0px 3px 6px #30526a;
@@ -261,26 +228,18 @@
     max-height: 98px;
     cursor: pointer;
 }
-
-.thumbnailWrapper img:hover {
-    opacity: 0.5;
-}
-
 .thumbnailWrapper .secondRow {
     margin-left: 143px;
 }
-
 .thumbnailWrapper .others {
     display: flex;
     flex-direction: column;
     margin-left: 286px;
 
 }
-
 .thumbnailWrapper .others img {
     margin-bottom: 3px;
 }
-
 .img1 {
     width: 47px;
     height: 45px;
@@ -289,7 +248,6 @@
     right: 36%;
     top: 27%;
 }
-
 .img2 {
     width: 57px;
     height: 51px;
@@ -298,7 +256,6 @@
     top: 26%;
     right: 18%;
 }
-
 .img3 {
     width: 37px;
     height: 42px;
@@ -307,7 +264,6 @@
     top: 48%;
     right: 28%;
 }
-
 .img4 {
     width: 133px;
     height: 88px;

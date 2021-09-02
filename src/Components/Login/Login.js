@@ -7,8 +7,7 @@ import LockIcon from '@material-ui/icons/Lock';
 import RssFeedIcon from '@material-ui/icons/RssFeed';
 import EventIcon from '@material-ui/icons/Event';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import MusicVideoIcon from '@material-ui/icons/MusicVideo';
-
+import VideocamIcon from '@material-ui/icons/Videocam';
 import loginVector from '../../assets/images/login-vector.jpg';
 import facebookIcon from '../../assets/images/facebook-icon.svg';
 import twitterIcon from '../../assets/images/twitter-icon.svg';
@@ -63,32 +62,32 @@ export const Login = (...props) => {
                             </a>
 
                             <a href="#">
-                                <span className={loginStyle.orange}><EventIcon/> Event</span>
+                                <span className={loginStyle.orange}><EventIcon /> Event</span>
                                 <img src={thumbnail2} alt="Thumbnail" title="Thumbnail" />
                             </a>
                             <a href="#">
-                                <span className={loginStyle.blue}><MusicVideoIcon/> Recorded Show</span>
+                                <span className={loginStyle.blue}><VideocamIcon/> Recorded Show</span>
                                 <img src={thumbnail3} alt="Thumbnail" title="Thumbnail" />
                             </a>
                         </div>
                         <div className={loginStyle.secondRow}>
                             <a href="#">
-                                <span className={loginStyle.pink}><LaptopMacIcon/>  Classes</span>
+                                <span className={loginStyle.pink}><LaptopMacIcon/> Classes</span>
                                 <img src={thumbnail4} alt="Thumbnail" title="Thumbnail" />
                             </a>
                             <a href="#">
-                                <span className={loginStyle.orange}><EventIcon/>  Event</span>
+                                <span className={loginStyle.orange}><EventIcon /> Event</span>
                                 <img src={thumbnail5} alt="Thumbnail" title="Thumbnail" />
                             </a>
                             <a href="#">
-                                <span className={loginStyle.blue}><MusicVideoIcon/>  Recorded Show</span>
+                                <span className={loginStyle.blue}><VideocamIcon/> Recorded Show</span>
                                 <img src={thumbnail6} alt="Thumbnail" title="Thumbnail" />
                             </a>
 
                         </div>
                         <div className={loginStyle.others}>
                             <a href="#">
-                                <span className={loginStyle.pink}><LaptopMacIcon/>  Classes</span>
+                                <span className={loginStyle.pink}><LaptopMacIcon/> Classes</span>
                                 <img src={thumbnail7} alt="Thumbnail" title="Thumbnail" />
                             </a>
                             <img src={thumbnail8} alt="Thumbnail" title="Thumbnail" />
