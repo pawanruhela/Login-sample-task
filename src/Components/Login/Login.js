@@ -9,6 +9,15 @@ import loginVector from '../../assets/images/login-vector.jpg';
 import facebookIcon from '../../assets/images/facebook-icon.svg';
 import twitterIcon from '../../assets/images/twitter-icon.svg';
 import googlePlusIcon from '../../assets/images/google-plus-icon.svg';
+import thumbnail1 from '../../assets/thumbnail/puzzle-img1.jpg';
+import thumbnail2 from '../../assets/thumbnail/puzzle-img2.jpg';
+import thumbnail3 from '../../assets/thumbnail/puzzle-img3.jpg';
+import thumbnail4 from '../../assets/thumbnail/puzzle-img4.jpg';
+import thumbnail5 from '../../assets/thumbnail/puzzle-img5.jpg';
+import thumbnail6 from '../../assets/thumbnail/puzzle-img6.jpg';
+import thumbnail7 from '../../assets/thumbnail/puzzle-img7.jpg';
+import thumbnail8 from '../../assets/thumbnail/puzzle-img8.jpg';
+
 
 export const Login = (...props) => {
     return (
@@ -42,6 +51,22 @@ export const Login = (...props) => {
                     </div>
                 </div>
                 <div className={loginStyle.loginVectorWrapper}>
+                    <div className={loginStyle.thumbnailWrapper}>
+                        <div>
+                            <img src={thumbnail1} alt="Thumbnail" title="Thumbnail" />
+                            <img src={thumbnail2} alt="Thumbnail" title="Thumbnail" />
+                            <img src={thumbnail3} alt="Thumbnail" title="Thumbnail" />
+                        </div>
+                        <div className={loginStyle.secondRow}>
+                            <img src={thumbnail4} alt="Thumbnail" title="Thumbnail" />
+                            <img src={thumbnail5} alt="Thumbnail" title="Thumbnail" />
+                            <img src={thumbnail6} alt="Thumbnail" title="Thumbnail" />
+                        </div>
+                        <div className={loginStyle.others}>
+                            <img src={thumbnail7} alt="Thumbnail" title="Thumbnail" />
+                            <img src={thumbnail8} alt="Thumbnail" title="Thumbnail" />
+                        </div>
+                    </div>
                     <img src={loginVector} alt="" />
                 </div>
             </div>

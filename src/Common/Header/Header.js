@@ -29,7 +29,7 @@ export const Header = (...props) => {
                     <div className={headerStyle.headerRight}>
                         <ul>
                             <li className={headerStyle.languageTag}>en</li>
-                            <li>Join Now! </li>
+                            <li><Button>Join Now!</Button></li>
                             <li className={headerStyle.profileDropdown}>
                                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}><span className={headerStyle.icon}><PersonIcon /></span> Login</Button>
                                 <Menu

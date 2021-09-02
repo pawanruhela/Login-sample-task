@@ -176,7 +176,30 @@
     justify-content: flex-end;
     width: 100%;
     max-width: calc(100% -  400px);
+    position: relative;
 }
 .loginVectorWrapper img {
     max-width: 80%;
+}
+
+.thumbnailWrapper {
+    position: absolute;
+    left: 32px;
+    /* max-width: 420px; */
+}
+.thumbnailWrapper img {
+    width: 100%;
+    max-width: 137px;
+    max-height: 98px;
+    cursor: pointer;
+
+}
+.thumbnailWrapper .secondRow {
+    margin-left: 137px;
+}
+.thumbnailWrapper .others {
+    display: flex;
+    flex-direction: column;
+    margin-left: 274px;
+
 }
