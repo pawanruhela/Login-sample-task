@@ -1,5 +1,5 @@
 import React from 'react';
-import loginStyle from './Login.module.css';
+import loginStyle from './Login.module.scss';
 import Footer from '../../Common/Footer/Footer';
 import Header from '../../Common/Header/Header';
 import PersonIcon from '@material-ui/icons/Person';
