@@ -1,0 +1,22 @@
+button {
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 35px;
+    text-align: center;
+    text-transform: none;
+    color: #fff;
+    margin-left: 15px;
+
+    span.icon {
+        width: 31px;
+        height: 31px;
+        background: #e8e8e8;
+        border: 1px solid rgba(255, 255, 255, 0.77);
+        color: #fff;
+        border-radius: 100%;
+        margin-right: 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

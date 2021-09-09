@@ -1,0 +1,83 @@
+.loginVectorWrapper {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: calc(100% - 400px);
+    position: relative;
+
+    img {
+        max-width: 80%;
+    }
+}
+
+.thumbnailWrapper {
+    position: absolute;
+    left: 32px;
+
+    a {
+        position: relative;
+
+        span {
+            position: absolute;
+            position: absolute;
+            padding: 5px 8px;
+            font-size: 10px;
+            border-radius: 4px;
+            color: #fff;
+            margin: 5px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+    }
+
+    svg {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .green {
+        background: #01DC12;
+    }
+
+    .orange {
+        background: #F87F06;
+    }
+
+    .blue {
+        background: #0000FD;
+    }
+
+    .pink {
+        background: #F450F4;
+    }
+
+    img {
+        border: 1px solid #f2faff;
+        box-shadow: 0px 3px 6px #30526a;
+        margin: 0px 2px;
+        width: 100%;
+        max-width: 137px;
+        max-height: 98px;
+        cursor: pointer;
+    }
+
+    .secondRow {
+        margin-left: 143px;
+    }
+
+    .others {
+        display: flex;
+        flex-direction: column;
+        margin-left: 286px;
+
+        img {
+            margin-bottom: 3px;
+        }
+    }
+}

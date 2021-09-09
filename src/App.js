@@ -1,7 +1,8 @@
 import './App.scss';
 import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
-import { Login } from './Components/Login/Login';
+import { Login } from './Components/Pages/Login/Login';
+
 
 function App() {
   return (
