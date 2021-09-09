@@ -4,7 +4,8 @@ import RssFeedIcon from '@material-ui/icons/RssFeed';
 import EventIcon from '@material-ui/icons/Event';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import VideocamIcon from '@material-ui/icons/Videocam';
-import loginVector from '../../../assets/images/login-vector.jpg';
+import iconAroundFace from '../../../assets/images/icons-around-the-face.svg';
+import loginVector from '../../../assets/images/login-vector.png';
 import thumbnail1 from '../../../assets/thumbnail/puzzle-img1.jpg';
 import thumbnail2 from '../../../assets/thumbnail/puzzle-img2.jpg';
 import thumbnail3 from '../../../assets/thumbnail/puzzle-img3.jpg';
@@ -57,6 +58,8 @@ export const Thumbnail = (...props) => {
                     </div>
                 </div>
                 <img src={loginVector} alt="" />
+                <img src={iconAroundFace} alt="" className={ThumbnailStyle.iconsAroundFace} />
+
             </div>
         </React.Fragment>
     )
