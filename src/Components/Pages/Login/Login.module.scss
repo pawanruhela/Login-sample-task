@@ -4,26 +4,36 @@
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	background: #2A6078;
+	background: #2a6078;
 }
 
 .loginFormWrapper {
 	margin: 0;
-	padding: 0 0 0 50px;
 	display: inline-flex;
 	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
-	max-width: calc(400px - 50px);
+	padding: 0 1rem;
+
+	@media (min-width: 1200px) {
+		max-width: calc(400px - 50px);
+		padding: 0 0 0 50px;
+	}
 
 	h1 {
 		margin: 0;
-		padding: 0 0 20px 0;
 		font-weight: normal;
 		font-size: 2.5rem;
 		text-align: center;
 		color: #fff;
 		width: 100%;
+		padding: 1.25rem 0;
+
+		@media(min-width:1200px)
+		{
+			padding: 0 0 20px 0;
+		}
+
 	}
 
 	form {
@@ -43,10 +53,10 @@
 		padding: 12px;
 		background: linear-gradient(#23a7e2 0%, #1b81ae 46.31%, #125471 100%);
 		cursor: pointer;
-		-webkit-transition: all .4s ease-in-out;
-		-moz-transition: all .4s ease-in-out;
-		-o-transition: all .4s ease-in-out;
-		transition: all .4s ease-in-out;
+		-webkit-transition: all 0.4s ease-in-out;
+		-moz-transition: all 0.4s ease-in-out;
+		-o-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;
 
 		&:hover {
 			background: linear-gradient(#125471 0%, #1b81ae 46.31%, #23a7e2 100%);
@@ -54,7 +64,7 @@
 	}
 
 	button[disabled] {
-		background: #ADADAD;
+		background: #adadad;
 		cursor: not-allowed;
 	}
 }
@@ -123,8 +133,14 @@
 
 .socialLogin {
 	padding: 0;
-	margin: 20px auto 0 auto;
-	width: 300px;
+	margin: 1.25rem 0;
+	width: 100%;
+
+	@media(min-width:1200px)
+	{
+		margin: 20px auto 0;
+		width: 300px;
+	}
 
 	h2 {
 		margin: 0;
@@ -140,7 +156,7 @@
 		width: 100%;
 
 		span {
-			background: #2A6078;
+			background: #2a6078;
 			display: inline-flex;
 			align-items: center;
 			flex-wrap: wrap;
@@ -188,10 +204,10 @@
 				border-radius: 100%;
 				width: 45px;
 				height: 45px;
-				-webkit-transition: all .4s ease-in-out;
-				-moz-transition: all .4s ease-in-out;
-				-o-transition: all .4s ease-in-out;
-				transition: all .4s ease-in-out;
+				-webkit-transition: all 0.4s ease-in-out;
+				-moz-transition: all 0.4s ease-in-out;
+				-o-transition: all 0.4s ease-in-out;
+				transition: all 0.4s ease-in-out;
 
 				&:hover {
 					background: rgba(255, 255, 255, 0.5);

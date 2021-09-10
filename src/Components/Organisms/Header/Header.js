@@ -16,7 +16,7 @@ export const Header = (...props) => {
                     <div className={headerStyle.headerRight}>
                         <ul>
                             <li className={headerStyle.languageTag}>en</li>
-                            <li><Button>Join Now!</Button></li>
+                            <li className={headerStyle.joinNow}><Button>Join Now!</Button></li>
                             <li className={headerStyle.profileDropdown}>
                                 <Profile />
                             </li>

@@ -10,13 +10,20 @@
 }
 .footer ul li {
     font-weight: normal;
-    font-size: 20px;
     line-height: 35px;
     text-align: center;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+
+    @media(min-width:1200px)
+    {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
 }
 .footer ul li a {
     color: #fff;
