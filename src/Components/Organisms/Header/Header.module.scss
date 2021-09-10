@@ -1,5 +1,5 @@
 .header {
-	background: #2A6078;
+	background: #2a6078;
 	ul {
 		margin: 0;
 		padding: 0;
@@ -13,11 +13,14 @@
 			line-height: 35px;
 			text-align: center;
 			color: #fff;
-			margin-left: 25px;
 			position: relative;
 			button {
 				text-transform: none !important;
 				font-size: 1.1rem !important;
+			}
+
+			@media (min-width: 1200px) {
+				margin-left: 25px;
 			}
 		}
 		li.languageTag {
@@ -68,16 +71,35 @@
 				}
 			}
 		}
+
+		li.joinNow {
+			button {
+				margin-right: 15px;
+				@media (min-width: 1200px) {
+					margin-right: 0;
+				}
+			}
+		}
 	}
 }
 .headerInner {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 0 20px;
+	justify-content: center;
 	width: calc(100% - 40px);
-	background: linear-gradient(#5c9bc9 0%, rgba(85, 143, 185, 0.92) 17.73%, rgba(61, 103, 133, 0.64) 68.97%, rgba(46, 78, 101, 0.47) 100%);
+	padding: 0 1.25rem 1rem;
+	background: linear-gradient(
+		#5c9bc9 0%,
+		rgba(85, 143, 185, 0.92) 17.73%,
+		rgba(61, 103, 133, 0.64) 68.97%,
+		rgba(46, 78, 101, 0.47) 100%
+	);
+
+	@media (min-width: 1200px) {
+		justify-content: space-between;
+		padding: 0 20px;
+	}
 }
 .logo {
 	display: inline-flex;

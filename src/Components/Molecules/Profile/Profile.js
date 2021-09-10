@@ -16,7 +16,7 @@ export const Profile = (...props) => {
 
     return (
         <React.Fragment>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}><span className={profileStyle.icon}><PersonIcon /></span> Login</Button>
+            <Button className={profileStyle.button} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}><span className={profileStyle.icon}><PersonIcon /></span> Login</Button>
             <Menu
                 id="simple-menu"
                 anchorEl={anchorEl}

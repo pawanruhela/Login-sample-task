@@ -1,13 +1,19 @@
 .loginVectorWrapper {
-    margin: 0;
+    margin: 0 0 1rem;
     padding: 0;
     display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-end;
     width: 100%;
-    max-width: calc(100% - 400px);
     position: relative;
+    justify-content: space-around;
+    
+
+    @media (min-width: 1200px) {
+        max-width: calc(100% - 400px);
+        justify-content: flex-end;
+        margin: 0;
+    }
 
     img {
         max-width: 80%;
@@ -18,12 +24,27 @@
         position: absolute;
         top: 10%;
         right: 18.4%;
+        @media(max-width:1199px)
+        {
+            display: none;
+        }
+    }
+
+    .backgroundGraphic{
+        @media(max-width:1199px)
+        {
+            display: none;
+        }
     }
 }
 
 .thumbnailWrapper {
-    position: absolute;
-    left: 32px;
+    position: static;
+
+    @media (min-width: 1200px) {
+        left: 32px;
+        position: absolute;
+    }
 
     a {
         position: relative;
@@ -69,19 +90,31 @@
         box-shadow: 0px 3px 6px #30526a;
         margin: 0px 2px;
         width: 100%;
-        max-width: 137px;
         max-height: 98px;
         cursor: pointer;
+        max-width: 107px;
+
+        @media(min-width:1200px)
+        {
+            max-width: 137px;
+        }
+
     }
 
     .secondRow {
-        margin-left: 143px;
+        @media(min-width:1200px)
+        {
+            margin-left: 143px;
+        }
     }
 
     .others {
         display: flex;
         flex-direction: column;
-        margin-left: 286px;
+        @media(min-width:1200px)
+        {
+            margin-left: 286px;
+        }
 
         img {
             margin-bottom: 3px;

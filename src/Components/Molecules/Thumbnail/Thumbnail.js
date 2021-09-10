@@ -57,7 +57,7 @@ export const Thumbnail = (...props) => {
                         <img src={thumbnail8} alt="Thumbnail" title="Thumbnail" />
                     </div>
                 </div>
-                <img src={loginVector} alt="" />
+                <img className={ThumbnailStyle.backgroundGraphic} src={loginVector} alt="" />
                 <img src={iconAroundFace} alt="" className={ThumbnailStyle.iconsAroundFace} />
 
             </div>
